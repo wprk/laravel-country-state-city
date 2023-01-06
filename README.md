@@ -1,7 +1,7 @@
 Laravel Country, State and City
 ======
 
-[![Total Downloads](http://poser.pugx.org/jaynilsavani/laravel-country-state-city/downloads)](https://packagist.org/packages/jaynilsavani/laravel-country-state-city)  [![License](http://poser.pugx.org/jaynilsavani/laravel-country-state-city/license)](https://packagist.org/packages/jaynilsavani/laravel-country-state-city)
+[![Total Downloads](http://poser.pugx.org/wprk/laravel-country-state-city/downloads)](https://packagist.org/packages/wprk/laravel-country-state-city)  [![License](http://poser.pugx.org/wprk/laravel-country-state-city/license)](https://packagist.org/packages/wprk/laravel-country-state-city)
 
 
 World's Country, State and City Provider for Laravel.
@@ -13,13 +13,13 @@ Installation
 Run a command for Laravel 8,
 
 ```
-composer require jaynilsavani/laravel-country-state-city:1.0.0
+composer require wprk/laravel-country-state-city:1.0.0
 ```
 
 Run a command for Laravel 7,
 
 ```
-composer require jaynilsavani/laravel-country-state-city:1.1.0
+composer require wprk/laravel-country-state-city:1.1.0
 ```
 
 To publish configurations,
@@ -86,8 +86,8 @@ $country = City::where('name','montreal')->first()->state->country;
 
 License
 -----
-This package is licensed under the `MIT` License. Please see the [License File](https://github.com/jaynilsavani/laravel-country-state-city/blob/master/LICENSE) for more details.
+This package is licensed under the `MIT` License. Please see the [License File](https://github.com/wprk/laravel-country-state-city/blob/master/LICENSE) for more details.
 
 Contributing
 -----
-Please see [CONTRIBUTING](https://github.com/jaynilsavani/laravel-country-state-city/blob/master/CODE_OF_CONDUCT.md) for details.
+Please see [CONTRIBUTING](https://github.com/wprk/laravel-country-state-city/blob/master/CODE_OF_CONDUCT.md) for details.

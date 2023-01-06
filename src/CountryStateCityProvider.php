@@ -1,17 +1,17 @@
 <?php
 
-namespace JaynilSavani\CountryStateCity;
+namespace Wprk\CountryStateCity;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\ServiceProvider;
-use JaynilSavani\CountryStateCity\Console\CountryStateCityCommand;
+use Wprk\CountryStateCity\Console\CountryStateCityCommand;
 
 /**
  * Class CountryStateCityProvider
  *
- * @package JaynilSavani\CountryStateCity
+ * @package Wprk\CountryStateCity
  */
 class CountryStateCityProvider extends ServiceProvider
 {

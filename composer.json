@@ -1,5 +1,5 @@
 {
-    "name": "jaynilsavani/laravel-country-state-city",
+    "name": "wprk/laravel-country-state-city",
     "description": "Laravel country, state and city collection.",
     "keywords": [
         "laravel",
@@ -17,6 +17,10 @@
         {
             "name": "jaynilsavani",
             "email": "jenilsavani009@gmail.com"
+        },
+        {
+            "name": "wprk",
+            "email": "wprk14@gmail.com"
         }
     ],
     "require": {
@@ -24,13 +28,13 @@
     },
     "autoload": {
         "psr-4": {
-            "JaynilSavani\\CountryStateCity\\": "src/"
+            "Wprk\\CountryStateCity\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "JaynilSavani\\CountryStateCity\\CountryStateCityProvider"
+                "Wprk\\CountryStateCity\\CountryStateCityProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace JaynilSavani\CountryStateCity\Console;
+namespace Wprk\CountryStateCity\Console;
 
 use Illuminate\Console\Command;
 use Database\Seeders\CountryStateCitySeeder;
@@ -8,7 +8,7 @@ use Database\Seeders\CountryStateCitySeeder;
 /**
  * Class CountryStateCityCommand
  *
- * @package JaynilSavani\CountryStateCity\Console
+ * @package Wprk\CountryStateCity\Console
  */
 class CountryStateCityCommand extends Command
 {
